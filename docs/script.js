@@ -295,7 +295,7 @@ function displayCart() {
    
     const itemLink = document.createElement("a");
     itemLink.href = item.link;
-    itemLink.textContent = "(voir)";
+    
     itemLink.style.color = "#ffd700";
     itemLink.target = "_blank";
    
