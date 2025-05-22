@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biréré Express</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="cart-toggle" onclick="toggleCart()">
+    🛒
+    <span class="cart-badge" id="cartCount">0</span>
+  </button>
+
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h2>Votre Panier (<span id="cartCountSidebar">0</span>)</h2>
+      <button class="close-cart" onclick="toggleCart()">&times;</button>
+    </div>
+    <ul id="cartItems"></ul>
+    <div id="cartActions" class="cart-actions" style="display: none;">
+      <button class="clear-cart-btn" onclick="clearCart()">Vider le panier</button>
+      <button class="order-btn" onclick="orderCart()">Commander</button>
+    </div>
+  </div>
+
+  <!-- Slide-in des catégories -->
+  <div class="all-categories-sidebar" id="allCategoriesSidebar">
+    <div class="cart-header">
+      <h2>🏷 Toutes les catégories</h2>
+      <button class="close-cart" onclick="toggleAllCategories()">&times;</button>
+    </div>
+    <div class="categories-grid" id="allCategoriesList"></div>
+  </div>
+
+  <!-- Slide-in Détails Produit -->
+  <div class="product-details-slide" id="productDetailsSlide">
+    <button class="close-details" onclick="closeProductDetails()">&times;</button>
+    <div class="details-content" id="detailsContent">
+      <!-- Contenu chargé dynamiquement -->
+    </div>
+  </div>
+
+  <div class="main-container">
+    <div class="content" id="mainContent">
+      <header>
+        <h1>Biréré Express</h1>
+        <p>Des produits de la ville, livrés à votre porte</p>
+      </header>
+
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Rechercher un produit...">
+        <button onclick="filterProducts()">Rechercher</button>
+      </div>
+
+      <div class="categories">
+        <button class="show-all-categories" onclick="toggleAllCategories()">📋 Toutes les catégories</button>
+        <button onclick="filterCategory('all')">Tous</button>
+        <button onclick="filterCategory('chaussures')">Chaussures</button>
+        <button onclick="filterCategory('vêtements')">Vêtements</button>
+        <button onclick="filterCategory('électronique')">Électronique</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- Produits chargés dynamiquement -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "chaussure-1",
+    "name": "Nike Air Max",
+    "category": "chaussures",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "price": "120.00",
+    "description": "Chaussures de sport confortables avec coussin d'air."
+  },
+  {
+    "id": "chaussure-2",
+    "name": "Adidas Superstar",
+    "category": "chaussures",
+    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWRpZGFzJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "price": "95.50",
+    "description": "Classiques intemporelles avec coque en caoutchouc."
+  },
+  {
+    "id": "tshirt-1",
+    "name": "T-Shirt Blanc",
+    "category": "vêtements",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dC1zaGlydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "price": "25.99",
+    "description": "T-shirt en coton 100% qualité premium."
+  },
+  {
+    "id": "tshirt-2",
+    "name": "T-Shirt Noir Graphic",
+    "category": "vêtements",
+    "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "price": "32.50",
+    "description": "T-shirt noir avec impression graphique originale."
+  },
+  {
+    "id": "phone-1",
+    "name": "iPhone 13",
+    "category": "électronique",
+    "image": "https://images.unsplash.com/photo-1632679965851-4e8f57df4ea9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXBob25lJTIwMTN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "price": "899.99",
+    "description": "Smartphone haut de gamme avec écran Super Retina XDR."
+  },
+  {
+    "id": "phone-2",
+    "name": "Samsung Galaxy S21",
+    "category": "électronique",
+    "image": "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Ftc3VuZyUyMGdhbGF4eSUyMHMyMXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "price": "799.99",
+    "description": "Écran Dynamic AMOLED 2X de 6,2 pouces et triple appareil photo."
+  },
+  {
+    "id": "accessoire-1",
+    "name": "Casque Bluetooth",
+    "category": "électronique",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "price": "89.99",
+    "description": "Casque sans fil avec réduction de bruit active."
+  },
+  {
+    "id": "accessoire-2",
+    "name": "Montre Connectée",
+    "category": "électronique",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "price": "149.99",
+    "description": "Suivi d'activité, notifications et autonomie de 7 jours."
+  },
+  {
+    "id": "jean-1",
+    "name": "Jean Slim Noir",
+    "category": "vêtements",
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8amVhbnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "price": "59.99",
+    "description": "Jean slim noir stretch confortable."
+  },
+  {
+    "id": "chaussure-3",
+    "name": "Baskets Confort",
+    "category": "chaussures",
+    "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "price": "75.00",
+    "description": "Baskets légères avec semelle amortissante."
+  }
+]
