@@ -1,34 +1,167 @@
 [
   {
-    "id": "phone-2",
-    "name": "Samsung Galaxy S21",
-    "category": "électronique",
-    "image": "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Ftc3VuZyUyMGdhbGF4eSUyMHMyMXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    "price": "799.99",
-    "description": "Écran Dynamic AMOLED 2X de 6,2 pouces et triple appareil photo."
-  },
-  {
-    "id": "accessoire-1",
-    "name": "Casque Bluetooth",
-    "category": "électronique",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    "price": "89.99",
-    "description": "Casque sans fil avec réduction de bruit active."
-  },
-  {
-    "id": "accessoire-2",
-    "name": "Montre Connectée",
-    "category": "électronique",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    "price": "149.99",
-    "description": "Suivi d'activité, notifications et autonomie de 7 jours."
-  },
-  {
-    "id": "chaussure-3",
-    "name": "Baskets Confort",
+    "id": "chaussure-sport-1",
+    "name": "air force 1",
     "category": "chaussures",
-    "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-    "price": "75.00",
-    "description": "Baskets légères avec semelle amortissante."
+    "image": "https://th.bing.com/th/id/OIP.cdSutgr57t73WDSMI7eNmQHaHa?w=1100&h=1100&rs=1&pid=ImgDetMain",
+    "images": [
+      "https://snkrscout.com/wp-content/uploads/2022/10/nike-air-force-1-bemalen-idee-grau-500x500.jpg",
+      "https://i.etsystatic.com/32174391/r/il/ccf25c/3462007855/il_1140xN.3462007855_ibuy.jpg"
+    ],
+    "price": "29.50",
+    "rating": 4.7,
+    "reviews": 56,
+    "description": "Chaussures de haute qualité, fabriquée aux USA.",
+    "details": {
+      "Matière": "Mesh respirant",
+      "Semelle": "Gel amortissant",
+      "Poids": "280g",
+      "Couleurs": "gris/blanc, Blanc/Noir"
+    },
+    "options": [
+      {
+        "name": "Taille",
+        "type": "text",
+        "values": ["38", "39", "40", "41", "42", "43", "44"]
+      },
+      {
+        "name": "Couleur",
+        "type": "color",
+        "values": []
+      }
+    ]
+  },
+  {
+    "id": "tshirt-premium",
+    "name": "T-Shirt coton",
+    "category": "vêtements",
+    "image": "https://i.pinimg.com/originals/14/eb/8e/14eb8eb1cf94de0822961ae1e86de393.jpg",
+    "price": "15.00",
+    "rating": 4.3,
+    "reviews": 34,
+    "description": "T-shirt en coton biologique ultra-doux, fabrication éthique.",
+    "details": {
+      "Matière": "100% coton bio",
+      "Entretien": "Lavage 30°C",
+      "Origine": "Fabriqué en France"
+    },
+    "options": [
+      {
+        "name": "Taille",
+        "type": "text",
+        "values": ["S", "M", "L", "XL"]
+      },
+      {
+        "name": "Couleur",
+        "type": "text",
+        "values": ["Blanc", "Noir", "Gris"]
+      }
+    ]
+  },
+  {
+    "id": "iphone 13",
+    "name": "iphone 13 pro",
+    "category": "électronique",
+    "image": "https://media.idownloadblog.com/wp-content/uploads/2021/08/Apple-iPhone-13-Pro-Max-back-camera-closeup.jpg",
+    "price": "350.00",
+    "rating": 4.8,
+    "reviews": 124,
+    "description": "iphone haut de gamme avec écran 120Hz et triple caméra.",
+    "details": {
+      "Écran": "6.7\" AMOLED",
+      "Stockage": "256GB",
+      "Batterie": "5000mAh",
+      "OS": "IOS18"
+    }
+  },
+  {
+    "id": "montre-connectee",
+    "name": "Montre Connectée Pro",
+    "category": "accessoires",
+    "image": "https://www.lestudiointernational.com/wp-content/uploads/2023/07/wireless-electronic-smart-watch-with-touch-screen-closeup-isolated-black-background-bluetooth-bracelet-black-band-fitness-tracker-1.jpg",
+    "price": "59.99",
+    "rating": 4.5,
+    "reviews": 89,
+    "description": "Montre connectée avec suivi santé avancé et autonomie 7 jours."
+  },
+  {
+    "id": "sac-a-dos",
+    "name": "Sac à Dos",
+    "category": "accessoires",
+    "image": "https://media.deichmann.com/asset/deichmann/product-h6/p_mosaic_pd/--2021887_1_H1.jpg",
+    "price": "19.99",
+    "rating": 4.2,
+    "reviews": 42,
+    "description": "Sac à dos waterproof avec compartiment pour ordinateur 15\"."
+  },
+  {
+    "id": "casque-audio",
+    "name": "Casque Audio",
+    "category": "électronique",
+    "image": "https://media.karousell.com/media/photos/products/2019/12/12/headphones_1576156619_deb31d53.jpg",
+    "price": "14.99",
+    "rating": 4.6,
+    "reviews": 156,
+    "description": "Casque Bluetooth avec annulation de bruit active."
+  },
+  {
+    "id": "jean-slim",
+    "name": "Jean Slim femme",
+    "category": "vêtements",
+    "image": "https://th.bing.com/th/id/OIP.mM9CRQvH68NPC0SgVqePPwHaJ3?rs=1&pid=ImgDetMain",
+    "price": "19.99",
+    "rating": 4.1,
+    "reviews": 28,
+    "description": "Jean moderne coupe slim en denim stretch."
+  },
+  {
+    "id": "chaussure-ville",
+    "name": "Chaussures de Ville",
+    "category": "chaussures",
+    "image": "https://www.shoestyle.fr/wp-content/uploads/richelieu-chaussure.jpg",
+    "price": "49.99",
+    "rating": 4.4,
+    "reviews": 37,
+    "description": "Chaussures élégantes pour homme en cuir véritable."
+  },
+  {
+    "id": "montre-classique",
+    "name": "Montre Classique",
+    "category": "accessoires",
+    "image": "https://www.rienasemettre.fr/wp-content/uploads/2024/02/choisir-une-montre-retro-votre-guide-pour-un-style-vintage-branche.jpg",
+    "price": "69.99",
+    "rating": 4.7,
+    "reviews": 63,
+    "description": "Montre bracelet inoxydable, mouvement automatique."
+  },
+  {
+    "id": "pc-portable",
+    "name": "PC Portable HP",
+    "category": "électronique",
+    "image": "https://th.bing.com/th/id/OIP.5MIMPL3XOJ790cND5kflwgHaD6?w=850&h=450&rs=1&pid=ImgDetMain",
+    "price": "299.99",
+    "rating": 4.9,
+    "reviews": 87,
+    "description": "EliteBook 14\" 16GB RAM, SSD 512GB, processeur i7."
+  },
+  {
+    "id": "veste en cuir",
+    "name": "Veste en Cuir",
+    "category": "vêtements",
+    "image": "https://th.bing.com/th/id/OIP.x-Uz8pO0n9GKwi_7PjmttwHaHa?w=670&h=670&rs=1&pid=ImgDetMain",
+    "price": "29.99",
+    "rating": 4.6,
+    "reviews": 45,
+    "description": "Veste en cuir véritable, coupe motard."
+  },
+  {
+    "id": "appareil-photo",
+    "name": "Appareil Photo canon",
+    "category": "électronique",
+    "image": "https://th.bing.com/th/id/OIP.N3Zh8u0p1kJBDEDtmFK-mAHaFj?rs=1&pid=ImgDetMain",
+    "price": "520.00",
+    "rating": 4.8,
+    "reviews": 112,
+    "description": "Appareil photo professionnel 24MP, objectif 18-55mm."
   }
 ]
